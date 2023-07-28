@@ -3,8 +3,10 @@ from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 import json
 import os
+from dotenv import load_dotenv
 
-openai.api_key = os.environ.get('API_KEY')
+load_dotenv()
+openai.api_key = os.environ.get("API_KEY")
 
 messages = [{'role': 'system', 'content': 'you are an ai assistant'}]
 
