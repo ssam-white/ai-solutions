@@ -1,0 +1,4 @@
+/vue/node_modules
+/python/venv
+/python/.env
+/python/routes/__pychache__

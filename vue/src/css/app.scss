@@ -1,0 +1,91 @@
+//  ╭────────────────────────────────────────────────────────────────────╮
+//  │ Imports                                                            │
+//  ╰────────────────────────────────────────────────────────────────────╯
+@use 'fonts';
+@use 'colors';
+@use 'text-colors';
+
+
+//  ╭────────────────────────────────────────────────────────────────────╮ │ Global Background Color                                            │
+//  ╰────────────────────────────────────────────────────────────────────╯
+
+.global-bg {
+  background-color: colors.$dark-8-rr;
+}
+
+div .q-drawer__content {
+  background-color: colors.$dark-8-rr;
+}
+
+body {
+  color: colors.$green-rr;
+}
+
+input {
+  color: colors.$green-rr;
+}
+
+//  ╭────────────────────────────────────────────────────────────────────╮
+//  │ Notification Styling                                               │
+//  ╰────────────────────────────────────────────────────────────────────╯
+
+.notif-rr {
+  background-color: colors.$grey-1-rr;
+  border-radius: 10px;
+}
+
+//  ╭────────────────────────────────────────────────────────────────────╮
+//  │ Card Styling                                                       │
+//  ╰────────────────────────────────────────────────────────────────────╯
+
+.card-style-rr {
+  border-radius: 12px !important;
+  background-color: colors.$dark-3-rr;
+}
+
+.inner-card-style-rr {
+  border-radius: 12px !important;
+  background-color: colors.$dark-2-rr;
+}
+
+.b-dashed-rr {
+  border: dashed;
+  transition-duration: 250ms;
+}
+
+.b-solid-rr {
+  border: solid;
+  border-width: 1px;
+  transition-duration: 250ms;
+}
+
+
+//  ╭────────────────────────────────────────────────────────────────────╮
+//  │ Button Styling                                                     │
+//  ╰────────────────────────────────────────────────────────────────────╯
+
+.clickable-item-style {
+  border-radius: 8px;
+}
+
+.button-style-rr {
+  color: colors.$purple-grey-1-rr;
+  background-color: colors.$grey-rr;
+  border-radius: 12px;
+}
+
+.button-style-reject {
+  color: colors.$dark-8-rr;
+  background-color: colors.$red-rr;
+  border-radius: 10px;
+}
+
+.button-style-confirm {
+  color: colors.$dark-8-rr;
+  background-color: colors.$green-rr;
+  border-radius: 10px;
+}
+
+.button-bgcolor-rr {
+  background-color: colors.$grey-rr;
+}

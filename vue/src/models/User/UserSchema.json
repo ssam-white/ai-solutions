@@ -1,0 +1,15 @@
+{
+  "entity": "users",
+  "pascalName": "User",
+  "color": "grey",
+  "fields": {
+    "something": {
+      "dataType": "String",
+      "label": "Something"
+    },
+    "some_number": {
+      "dataType": "Number",
+      "label": "Some Number"
+    }
+  }
+}

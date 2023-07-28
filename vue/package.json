@@ -1,0 +1,57 @@
+{
+  "name": "updated-quasar-base",
+  "version": "0.0.1",
+  "description": "Quasar Base Project",
+  "productName": "RR Quasar Base",
+  "author": "Paracelsus-Rose <keptwalking@protonmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vueuse/core": "^9.5.0",
+    "@vueuse/shared": "^9.5.0",
+    "ai": "^2.1.18",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.11",
+    "pinia-orm": "^1.2.2",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.1.140",
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.0.0",
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@unocss/preset-icons": "^0.46.5",
+    "@unocss/preset-uno": "^0.46.5",
+    "@vue-macros/volar": "^0.5.3",
+    "autoprefixer": "^10.4.13",
+    "change-case": "^4.1.2",
+    "eslint": "^8.10.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "hygen": "^6.2.11",
+    "inflection": "^2.0.0",
+    "typescript": "^4.5.4",
+    "unocss": "^0.46.5",
+    "unplugin-vue-macros": "^0.16.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
