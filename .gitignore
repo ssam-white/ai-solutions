@@ -1,5 +1,8 @@
 .DS_Store
+
 /vue/node_modules
+/vue/.DS_Store
+
 /python/venv
 /python/.env
 /python/routes/__pychache__
